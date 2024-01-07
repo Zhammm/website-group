@@ -1,0 +1,53 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+header {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
+</head>
+<body>
+<header> Merchandise Zuss Esport </header>
+<p>Varsity jacket:</p>
+<img src="Zuss esport pic.jpg" alt="Pineapple" width="300" height="300">
+<img src="Zuss esport pic2.jpg" alt="Pineapple" width="300" height="300">
+<img src="Zuss esport3.jpg" alt="Pineapple" width="300" height="300">
+<header> Payment for the clothes is below </header>
+<form name="form1" method="post" action="mailto:aiman@gmail.com">
+<p>Name: <input name="name" type="text"></p>
+<p>Pilihan baju: purple/white<input type= "checkbox" name= "option1" value= "cash">Red/Black<input type= "checkbox" name= "option1" value= "cash"></p>
+<p>Gender:<input type= "radio" name= "gender" value= "female">Male<input type= "radio" name= "gender" value= "female">Female</p>
+<p>Payment:<select name= "Payment"></p>
+<option value="Joh">Debit</option>
+<option value="Joh">TouchnGo</option>
+<option value="Joh">QRcode</option>
+</select>
+<p>Fill in your size: <textarea name="message"></textarea></P>
+<p>Submit your receipt below:</p>
+<p><input type= "File" name= "gambar"></p>
+<p><input type= "submit" name= "Submit"></p>
+</body>
+</html>
